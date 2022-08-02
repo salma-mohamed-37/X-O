@@ -1,0 +1,29 @@
+.boardd
+{
+    height:35vw;
+    width:35vw;
+    margin:auto; 
+    box-sizing: border-box;
+}
+
+.celld
+{
+    height:11.3vw;
+    width:11.3vw;
+    line-height: 11.3vw;  
+    border:6px  rgb(4, 238, 255) solid ;
+    float: left;
+    color:rgb(4, 238, 255);
+    text-align: center;
+    font-size: 160px;
+    background-color:black;
+    box-sizing: border-box;
+}  
+
+.turnd
+{
+    font-size: 35px;
+    text-align: center;
+    color:rgb(4, 238, 255);
+    margin: 0;
+}

@@ -1,0 +1,45 @@
+.bar_b
+{
+    border: none;
+    width:fit-content;
+    height:fit-content;
+    margin: none;
+    position:relative; 
+    top:-10px;
+    background-color: white;
+    font-size: 1.5vw;
+
+}
+
+.base-bar , .theme-bar
+{
+    padding :0;
+    margin: none;
+    border:none;
+    width:fit-content; 
+    height:fit-content;
+}    
+
+.base-bar {display: inline-block;}
+.theme-bar {position: relative;  left: 120px; }
+
+.img 
+{
+    height:2vw;
+    width:2vw;
+    margin-left: 10px;
+    background-color: white;
+    padding-top:0.5vw;
+}
+
+input 
+{
+    width:fit-content; 
+    height:fit-content;
+}
+
+.p
+{
+margin: 0;
+font-size: 25px;
+}

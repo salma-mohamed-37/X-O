@@ -1,0 +1,37 @@
+.board
+{
+    height:35vw;
+    width:35vw;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.cell
+{
+    height:11.3vw;
+    width:11.3vw;
+    line-height: 11.3vw; 
+    border:6px solid rgb(115, 77, 38);
+    float: left;
+    color:rgb(115, 77, 38);
+    text-align: center;
+    font-size: 160px;
+    background-color: rgb(222, 150, 15);
+    box-sizing: border-box; 
+}   
+
+.turn , span
+{
+    font-size: 35px;
+    text-align: center;
+}
+
+.turn
+{
+    color:rgb(214, 156, 30);
+    margin: auto;
+    text-align: center;
+}
+span {color: rgb(115, 77, 38);}
+
+
