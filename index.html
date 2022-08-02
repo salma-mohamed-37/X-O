@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Game</title>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="index.css" />
     </head>
@@ -10,10 +10,10 @@
 
         <div class="menu">
             <label for="px">Enter the player name who plays with X</label> <br/> 
-            <input type="text" id="px" name="playerx" placeholder="player with X" /> <br/>
+            <input type="text" id="px" name="playerx" placeholder="player with X" required /> <br/>
             <label for="po"> Enter the player name who plays with O</label> <br/>
-            <input type="text" id="po" name="playero" placeholder="player with O" /> <br/>
-            <input type="button" value="click" onclick="goToGame ()" />
+            <input type="text" id="po" name="playero" placeholder="player with O" required/> <br/>
+            <input type="button" value="start" onclick="goToGame ()" />
         </div>
         <script src="game.js"></script>
     </body>
