@@ -1,0 +1,47 @@
+.boardd
+{
+    height: 490px;
+    width:490px;
+    border:6px rgb(4, 238, 255) solid;
+    margin:0px auto; 
+    box-sizing: border-box;
+    padding-left: 17px;
+    padding-top: 17px;
+    background-color:black;
+}
+.celld
+{
+    height:150px;
+    width:150px;
+    line-height: 150px; 
+    box-sizing: border-box;
+    border:6px  rgb(4, 238, 255) solid ;
+    float: left;
+    color:rgb(4, 238, 255);
+    text-align: center;
+    font-size: 160px;
+}  
+
+.buttond
+{
+    color:black;
+    background-color:rgb(4, 238, 255) ;
+    height:40px;
+    width: 100px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 0px auto;
+    text-align: center;
+    margin-left: 42%;
+    border: 0;
+}
+
+.turnd
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(4, 238, 255);
+    margin: 0;
+}
